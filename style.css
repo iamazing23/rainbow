@@ -1,0 +1,120 @@
+/* Reset some default browser styles for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set up the basic color scheme */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #181818; /* Dark gray background */
+    color: #e0e0e0; /* Light gray text for readability on dark background */
+}
+
+header {
+    background: linear-gradient(135deg, #4b0082, #00008b); /* Indigo to dark blue gradient */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 4px solid #00008b;
+}
+
+.header-image {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 15px;
+    border-radius: 50%; /* Circular image style */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+main {
+    padding: 30px 20px;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #333; /* Dark gray for the content area */
+    border-radius: 12px; /* Smooth corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow */
+}
+
+footer {
+    background-color: #00008b; /* Dark blue */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 4px solid #4b0082; /* Indigo border on top */
+    margin-top: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #add8e6; /* Light blue hover effect */
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+button {
+    background-color: #4b0082; /* Indigo background */
+    color: white; /* White text */
+    font-size: 1.5em; /* Larger font size */
+    padding: 15px 30px; /* More padding for a bigger button */
+    border: none;
+    border-radius: 8px; /* Smooth corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 20px; /* Space above the button */
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+}
+
+button:hover {
+    background-color: #00008b; /* Dark blue on hover */
+    transform: scale(1.05); /* Slight grow effect on hover */
+}
+main p {
+    text-align: center; /* Center the text */
+    margin-bottom: 20px; /* Add some space below the text */
+}
+main p, main h2, main h3 {
+    text-align: left; /* Left-aligns the text */
+    margin-bottom: 20px; /* Adds space below each paragraph and heading */
+    line-height: 1.6; /* Ensures good readability with proper line spacing */
+}
+
+main article {
+    padding: 20px; /* Adds some padding around the content */
+    background-color: #333; /* Dark gray background to match the rest of the site */
+    border-radius: 12px; /* Smooth corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+}
